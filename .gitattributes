@@ -1,2 +1,2 @@
-dev/SamplesProject/KelvinProj/*.cgf filter=lfs diff=lfs merge=lfs -text
-dev/SamplesProject/KelvinProj/*.jpg filter=lfs diff=lfs merge=lfs -text
+*.cgf filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
