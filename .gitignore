@@ -113,6 +113,7 @@
 /dev/Code/SDKs
 /dev/Code/Sandbox/SDKs
 /dev/Solutions
+/dev/SessionStatus
 /dev/Code/Tools/SDKs
 /dev/MultiplayerSample
 /dev/MultiplayerProject
@@ -124,6 +125,9 @@
 /dev/Tools/CrySCompileServer/x64
 /dev/Tools/LmbrSetup/Win.vc140.Debug
 /dev/Tools/LmbrSetup/Win.vc120.Debug
+
+/dev/SamplesProject/*
+!/dev/SamplesProject/KelvinProj/
 
 # Ignore ico files from Lumberyard folders but preserve ico files in project folders
 /dev/Code/**/*.ico
