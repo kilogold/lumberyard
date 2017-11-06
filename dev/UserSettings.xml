@@ -1,0 +1,33 @@
+<ObjectStream version="2">
+	<Class name="UserSettingsContainer" type="{42C087CF-4F19-4DAF-B2B1-2927D94AA295}" version="3" specializationTypeId="{42C087CF-4F19-4DAF-B2B1-2927D94AA295}">
+		<Class name="AZStd::unordered_map" field="Map" type="{18456A80-63CC-40C5-BF16-6AF94F9A9ECC}" specializationTypeId="{79C4F23B-19F1-58AE-9C3A-8CDFD2D00AB0}">
+			<Class name="AZStd::pair" field="element" type="{9F3F5302-3390-407A-A6F7-2E011E3BB686}" specializationTypeId="{8B27CED2-6C1F-5A72-9D09-97458A077D47}">
+				<Class name="unsigned int" field="value1" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}" value="1280829544" specializationTypeId="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+				<Class name="AZStd::intrusive_ptr" field="value2" type="{C4B5400B-5CDC-4B14-932E-BFA30BC1DE35}" specializationTypeId="{21609605-3020-5D04-A48B-895277FD0093}">
+					<Class name="AZ::StreamerComponentUserSettings" field="element" type="{DBE98B4C-766C-453E-84AD-AF5425696591}" specializationTypeId="{DBE98B4C-766C-453E-84AD-AF5425696591}">
+						<Class name="bool" field="enableDrilling" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}" value="true" specializationTypeId="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+						<Class name="bool" field="drillingTrackStreams" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}" value="false" specializationTypeId="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+					</Class>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair" field="element" type="{9F3F5302-3390-407A-A6F7-2E011E3BB686}" specializationTypeId="{8B27CED2-6C1F-5A72-9D09-97458A077D47}">
+				<Class name="unsigned int" field="value1" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}" value="653999308" specializationTypeId="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+				<Class name="AZStd::intrusive_ptr" field="value2" type="{C4B5400B-5CDC-4B14-932E-BFA30BC1DE35}" specializationTypeId="{21609605-3020-5D04-A48B-895277FD0093}">
+					<Class name="TargetManagementSettings" field="element" type="{AB1B14BB-C0E3-484A-B498-98F44A58C161}" specializationTypeId="{AB1B14BB-C0E3-484A-B498-98F44A58C161}">
+						<Class name="AZStd::string" field="Hub" type="{EF8FF807-DDEE-4EB0-B678-4CA3A2C490A4}" value="KELVIN-PC" specializationTypeId="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+						<Class name="int" field="HubPort" type="{72039442-EB38-4D42-A1AD-CB68F7E0EEF6}" value="5172" specializationTypeId="{72039442-EB38-4D42-A1AD-CB68F7E0EEF6}"/>
+						<Class name="AZStd::string" field="Name" type="{EF8FF807-DDEE-4EB0-B678-4CA3A2C490A4}" value="ProjectConfigurator" specializationTypeId="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+						<Class name="int" field="LocalPort" type="{72039442-EB38-4D42-A1AD-CB68F7E0EEF6}" value="0" specializationTypeId="{72039442-EB38-4D42-A1AD-CB68F7E0EEF6}"/>
+						<Class name="int" field="ReconnectIntervalMS" type="{72039442-EB38-4D42-A1AD-CB68F7E0EEF6}" value="1000" specializationTypeId="{72039442-EB38-4D42-A1AD-CB68F7E0EEF6}"/>
+						<Class name="TargetInfo" field="LastConnectedTarget" type="{4D166C31-D7F4-4D49-B897-16365B8B0716}" version="2" specializationTypeId="{4D166C31-D7F4-4D49-B897-16365B8B0716}">
+							<Class name="AZStd::string" field="m_displayName" type="{EF8FF807-DDEE-4EB0-B678-4CA3A2C490A4}" value="" specializationTypeId="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="unsigned int" field="m_persistentId" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}" value="0" specializationTypeId="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+							<Class name="unsigned int" field="m_flags" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}" value="0" specializationTypeId="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+						</Class>
+					</Class>
+				</Class>
+			</Class>
+		</Class>
+	</Class>
+</ObjectStream>
+
