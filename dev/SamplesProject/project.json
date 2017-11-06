@@ -1,0 +1,27 @@
+{
+    "project_name"      : "SamplesProject",
+    "product_name"      : "Samples Project",
+    "executable_name"   : "SamplesProjectLauncher",
+    "modules"           : [],
+    "project_id"        : "{D882E365-54D6-586E-BD78-2650F3057D49}",
+    "sys_game_folder"   : "SamplesProject",
+    "sys_dll_game"      : "SamplesProject",
+
+	"android_settings": {
+        "package_name"  : "com.lumberyard.samples",
+        "version_number": 1,
+        "version_name"  : "1.0.0.0",
+        "orientation"   : "landscape",
+        "app_public_key" : "MY_APP_PUBLIC_KEY",
+        "app_obfuscator_salt" : "MY_OBFUSCATOR_SALT_BASE_64",
+        "use_main_obb" : "false",
+        "use_patch_obb" : "false",
+        "rc_obb_job" : "RCJob_Generic_Android_MakeObb.xml"
+    },
+
+    "durango_settings": {
+    },
+
+    "orbis_settings": {
+    }
+}

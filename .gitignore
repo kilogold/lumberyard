@@ -1,4 +1,5 @@
 # Ignore every file.
+docs/
 dev/*
 
 
@@ -57,7 +58,6 @@ dev/*
 !dev/**/*.ms
 !dev/**/*.mtl
 !dev/**/*.npmignore
-!dev/**/*.p4ignore
 !dev/**/*.plist
 !dev/**/*.prefab
 !dev/**/*.pro
@@ -137,3 +137,4 @@ dev/*
 /dev/SetupAssistantUserPreferences.ini
 /dev/_WAF_/environment.json
 /SetupAssistant.bat
+/filehashes.json
