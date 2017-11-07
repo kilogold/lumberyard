@@ -5,6 +5,10 @@ dev/*
 
 !/dev/SamplesProject
 /dev/SamplesProject/*
+!/dev/SamplesProject/Levels/
+/dev/SamplesProject/Levels/*
+!/dev/SamplesProject/Levels/Kelvin
+dev/SamplesProject/Levels/Kelvin/_savebackup/
 !/dev/SamplesProject/KelvinProj/
 !dev/SamplesProject/KelvinProj/**/*.cgf
 !dev/SamplesProject/KelvinProj/**/*.jpg
