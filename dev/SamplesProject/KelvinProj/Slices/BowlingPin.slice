@@ -1,9 +1,9 @@
 <ObjectStream version="2">
 	<Class name="AZ::Entity" type="{75651658-8663-478D-9090-2432DFCAFA44}" version="2" specializationTypeId="{75651658-8663-478D-9090-2432DFCAFA44}">
 		<Class name="EntityId" field="Id" type="{6383F1D3-BB27-4E6B-A49A-6409B2059EAA}" version="1" specializationTypeId="{6383F1D3-BB27-4E6B-A49A-6409B2059EAA}">
-			<Class name="AZ::u64" field="id" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}" value="522009334635" specializationTypeId="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+			<Class name="AZ::u64" field="id" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}" value="2489410342697" specializationTypeId="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
 		</Class>
-		<Class name="AZStd::string" field="Name" type="{EF8FF807-DDEE-4EB0-B678-4CA3A2C490A4}" value="522009334635" specializationTypeId="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+		<Class name="AZStd::string" field="Name" type="{EF8FF807-DDEE-4EB0-B678-4CA3A2C490A4}" value="2489410342697" specializationTypeId="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
 		<Class name="bool" field="IsDependencyReady" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}" value="false" specializationTypeId="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
 		<Class name="bool" field="IsRuntimeActive" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}" value="true" specializationTypeId="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
 		<Class name="AZStd::vector" field="Components" type="{2BADE35A-6F1B-4698-B2BC-3373D010020C}" specializationTypeId="{0D23B755-6E8F-5C6C-B7C9-A352A55DC1DF}">
@@ -123,6 +123,10 @@
 										<Class name="AZ::u64" field="ComponentId" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}" value="11508683289692979071" specializationTypeId="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
 										<Class name="AZ::u64" field="SortIndex" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}" value="3" specializationTypeId="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
 									</Class>
+									<Class name="ComponentOrderEntry" field="element" type="{335C5861-5197-4DD5-A766-EF2B551B0D9D}" version="1" specializationTypeId="{335C5861-5197-4DD5-A766-EF2B551B0D9D}">
+										<Class name="AZ::u64" field="ComponentId" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}" value="859777141247219520" specializationTypeId="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+										<Class name="AZ::u64" field="SortIndex" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}" value="4" specializationTypeId="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+									</Class>
 								</Class>
 							</Class>
 							<Class name="EditorEntitySortComponent" field="element" type="{6EA1E03D-68B2-466D-97F7-83998C8C27F0}" version="2" specializationTypeId="{6EA1E03D-68B2-466D-97F7-83998C8C27F0}">
@@ -183,6 +187,14 @@
 								<Class name="CapsuleShapeConfig" field="Configuration" type="{00931AEB-2AD8-42CE-B1DC-FA4332F51501}" version="1" specializationTypeId="{00931AEB-2AD8-42CE-B1DC-FA4332F51501}">
 									<Class name="float" field="Height" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}" value="0.4000000" specializationTypeId="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
 									<Class name="float" field="Radius" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}" value="0.0680000" specializationTypeId="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+								</Class>
+							</Class>
+							<Class name="EditorTagComponent" field="element" type="{5272B56C-6CCC-4118-8539-D881F463ACD1}" version="1" specializationTypeId="{5272B56C-6CCC-4118-8539-D881F463ACD1}">
+								<Class name="AZ::Component" field="BaseClass1" type="{EDFCB2CF-F75D-43BE-B26B-F35821B29247}" specializationTypeId="{EDFCB2CF-F75D-43BE-B26B-F35821B29247}">
+									<Class name="AZ::u64" field="Id" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}" value="859777141247219520" specializationTypeId="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+								</Class>
+								<Class name="AZStd::vector" field="Tags" type="{2BADE35A-6F1B-4698-B2BC-3373D010020C}" specializationTypeId="{99DAD0BC-740E-5E82-826B-8FC7968CC02C}">
+									<Class name="AZStd::string" field="element" type="{EF8FF807-DDEE-4EB0-B678-4CA3A2C490A4}" value="Pin" specializationTypeId="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
 								</Class>
 							</Class>
 						</Class>
