@@ -13,6 +13,16 @@ dev/SamplesProject/Levels/Kelvin/_savebackup/
 !dev/SamplesProject/KelvinProj/**/*.cgf
 !dev/SamplesProject/KelvinProj/**/*.jpg
 
+!/dev/Bowling
+/dev/Bowling/*
+!/dev/Bowling/Levels/
+/dev/Bowling/Levels/*
+!/dev/Bowling/Levels/Kelvin
+dev/Bowling/Levels/Kelvin/_savebackup/
+!/dev/Bowling/KelvinProj/
+!dev/Bowling/KelvinProj/**/*.cgf
+!dev/Bowling/KelvinProj/**/*.jpg
+
 
 # In every subdirectory, avoid ignoring files with the following extensions.
 !dev/**/*.[cC][pP][pP]

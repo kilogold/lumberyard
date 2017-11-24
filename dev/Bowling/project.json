@@ -1,0 +1,42 @@
+{
+    "project_name": "Bowling",
+    "product_name": "Bowling",
+    "executable_name": "BowlingLauncher",
+    "modules" : [],
+    "project_id": "{8F08DD5D-F5C5-475C-91B0-E55872F87E44}",
+	
+    "durango_settings" : {
+        "app_id"            : "Bowling",
+        "entry_point"       : "Bowling.app",
+        "package_name"      : "Bowling",
+        "display_name"      : "Bowling",
+        "publisher"         : "Your Publisher",
+        "description"       : "Your game's description.",
+        "foreground_text"   : "light",
+        "background_color"  : "#6495ED",
+        "version"           : "1.0.0.0",
+        "titleid"           : "00E7F92C",
+        "scid"              : "65b20100-55fe-49dc-82b9-020000e7f92c",
+        "appxmanifest"      : "../Resources/AppxManifest.xml",
+        "logo"              : "../Resources/DurangoLogo.png",
+        "small_logo"        : "../Resources/DurangoSmallLogo.png",
+        "splash_screen"     : "../Resources/DurangoSplashScreen.png",
+        "store_logo"        : "../Resources/DurangoStoreLogo.png",
+        "wide_logo"         : "../Resources/DurangoWideLogo.png"
+    },
+
+    "android_settings" : {
+        "package_name" : "com.lumberyard.yourgame",
+        "version_number" : 1,
+        "version_name" : "1.0.0.0",
+        "orientation" : "landscape"
+    },
+
+    "orbis_settings": {
+        "data_folder": "Bowling",
+        "nptitle_dat": "",
+        "param_sfo": "../Resources/param.sfo",
+        "trophy_trp": "../Resources/trophies.trp"
+    }
+
+}
